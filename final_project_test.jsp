@@ -6,7 +6,7 @@
 </head>
 <% SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy"); %>
 <body>
-<h1>***Hello Ziv and Lorin***, Welcome to lorin_elul_203523394 final project!
+<h1>Hello Ziv and Lorin, Welcome to lorin_elul_203523394 final project!
 Today is <%= sdf.format(new Date()) %></h1>
 <button>Switch color "click me"</button>
   <script type="text/javascript">
