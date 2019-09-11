@@ -6,7 +6,7 @@
 </head>
 <% SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy"); %>
 <body>
-<h1>Hello Ziv and Lorin, Welcome to lorin_elul_203523394 final project!
+<h1>***Hello Ziv and Lorin***, Welcome to lorin_elul_203523394 final project!
 Today is <%= sdf.format(new Date()) %></h1>
 <button>Switch color "click me"</button>
   <script type="text/javascript">
@@ -17,6 +17,6 @@ Today is <%= sdf.format(new Date()) %></h1>
   document.querySelector("body").style.background= color[i]
   })
 </script>
-<img src="/status/workspace/final project/image.jpg">
+<img src="/status/workspace/final_project_test/image.jpg">
 </body>
 </html>
